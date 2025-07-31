@@ -1,16 +1,52 @@
-# todo_lite
+# To-Do List App 📝
 
-A new Flutter project.
+A minimal Flutter app that helps users manage daily tasks. Built as part of my Flutter learning journey.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- Add new tasks
+- Mark tasks as complete
+- Display current task list
+- Show message when the list is empty
+- Clean, responsive UI
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** (UI framework)
+- **Dart** (programming language)
+- **State Management**: `setState`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+
+```
+lib/
+├── main.dart        # App entry point
+├── models/          # Task model
+└── screens/         # Home screen
+```
+
+## 🚀 Getting Started
+
+Make sure Flutter is installed and configured.
+
+```bash
+flutter pub get
+flutter run
+```
+
+## 💡 What I Learned
+
+- Managing state with `setState`
+- Working with `TextField`, `ListView`, and `ElevatedButton`
+- Basic layout widgets: `Padding`, `Row`, `Column`, `Expanded`, `SizedBox`
+- UI logic separation
+
+## ✅ Next Steps
+
+- Task deletion
+- Persistent storage (e.g., shared_preferences)
+- Task categories and filtering
+
+---
+
+> Part of my Flutter journey toward becoming a professional app developer.
